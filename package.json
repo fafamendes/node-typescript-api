@@ -1,0 +1,36 @@
+{
+  "name": "node-typescript-api",
+  "version": "0.0.1",
+  "description": "A simple node.js api using typescript, express, mongodb and jest",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fafamendes/node-typescript-api.git"
+  },
+  "keywords": [
+    "api",
+    "typescript",
+    "node.js",
+    "mongodb",
+    "jest"
+  ],
+  "author": "Fabrício Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fafamendes/node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/fafamendes/node-typescript-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.2",
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
