@@ -1,1 +1,1 @@
-console.log('TS working!')
+console.log('TS working!');

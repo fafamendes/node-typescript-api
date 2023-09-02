@@ -1,0 +1,7 @@
+{
+  "App": {
+    "database": {
+      "mongoUrl": "mongodb+srv://test:test@cluster0.r7jgifa.mongodb.net/?retryWrites=true&w=majority"
+    }
+  }
+}

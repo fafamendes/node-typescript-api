@@ -1,7 +1,0 @@
-{
-  "App": {
-    "database": {
-      "mongoUrl": "mongodb://cluster0.r7jgifa.mongodb.net"
-    }
-  }
-}
